@@ -1,0 +1,16 @@
+[25-Jan-2017 20:56:33 UTC] PHP Fatal error:  Call to undefined function takeoff_get_posts_section_title() in /home/anchor/public_html/wp-content/themes/takeoff/single.php on line 11
+[26-Jan-2017 04:24:55 UTC] PHP Fatal error:  Uncaught exception 'phpmailerException' with message 'Invalid address:  (setFrom) Test' in /home/anchor/public_html/wp-includes/class-phpmailer.php:1023
+Stack trace:
+#0 /home/anchor/public_html/wp-includes/pluggable.php(352): PHPMailer->setFrom('Test', 'WordPress', false)
+#1 /home/anchor/public_html/wp-content/plugins/contact-form-7/includes/mail.php(111): wp_mail('me@tessak22.com', 'Website Email S...', 'Test can be rea...', 'From: Test\nX-WP...', Array)
+#2 /home/anchor/public_html/wp-content/plugins/contact-form-7/includes/mail.php(18): WPCF7_Mail->compose()
+#3 /home/anchor/public_html/wp-content/plugins/contact-form-7/includes/submission.php(258): WPCF7_Mail::send(Array, 'mail')
+#4 /home/anchor/public_html/wp-content/plugins/contact-form-7/includes/submission.php(157): WPCF7_Submission->mail()
+#5 /home/anchor/public_html/wp-content/plugins/contact-form-7/includes/submission.php(28): WPCF7_Submission->submit()
+#6 /home/anchor/public_html/wp-content/plugins/contact-form-7/includes/contact-form.php(645): WPCF in /home/anchor/public_html/wp-includes/class-phpmailer.php on line 1023
+[28-Jan-2017 22:59:02 UTC] PHP Fatal error:  Call to undefined function takeoff_get_posts_section_title() in /home/anchor/public_html/wp-content/themes/takeoff/single.php on line 11
+[31-Jan-2017 05:05:00 UTC] PHP Fatal error:  Call to undefined function takeoff_get_posts_section_title() in /home/anchor/public_html/wp-content/themes/takeoff/single.php on line 11
+[08-Feb-2017 03:22:04 UTC] PHP Fatal error:  Call to undefined function takeoff_get_posts_section_title() in /home/anchor/public_html/wp-content/themes/takeoff/single.php on line 11
+[11-Feb-2017 07:21:26 UTC] PHP Fatal error:  Call to undefined function takeoff_get_posts_section_title() in /home/anchor/public_html/wp-content/themes/takeoff/single.php on line 11
+[26-Feb-2017 17:30:30 UTC] PHP Fatal error:  Call to undefined function takeoff_get_posts_section_title() in /home/anchor/public_html/wp-content/themes/takeoff/single.php on line 11
+[28-Feb-2017 11:01:28 UTC] PHP Fatal error:  Call to undefined function takeoff_get_posts_section_title() in /home/anchor/public_html/wp-content/themes/takeoff/single.php on line 11

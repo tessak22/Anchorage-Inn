@@ -1,0 +1,147 @@
+/**
+ *     project responsive
+ */
+@media only screen and (max-width: 1199px) {
+    html {font-size: 16px;}
+    body.sticky-site-footer { margin-bottom: 123px; } /* match .site-footer height */
+    body.sticky-site-footer .site-footer { height: 123px; } /* match body.sticky-site-footer margin-bottom */
+    .content-list .post {
+        width: 20%;
+    }
+}
+
+@media only screen and (max-width: 991px) {
+    html {font-size: 16px;
+        background: #4f93ce;
+    }
+    body.sticky-site-footer {
+        margin-bottom: 123px;  /* match .site-footer height */
+    }
+    body.sticky-site-footer .site-footer {
+        height: 123px; /* match body.sticky-site-footer margin-bottom */
+    }
+    h1 {
+        font-size: 3.125em;
+    }
+    .content .introduction {
+
+    }
+    .utility {
+        top: 0;
+    }
+    .toggle-nav {
+        display: block;
+    }
+    .nav-secondary {
+        text-align: left;
+        float: left;
+        position: relative;
+        top: 0px;
+    }
+    .nav-secondary li a {
+        color: #fff;
+    }
+    .nav-secondary li a:hover {
+        color: #337ab7;
+    }
+    .search-box {
+        float: left;
+        position: relative;
+        top: 0px;
+        right: auto;
+        left: 0;
+    }
+    /*Responsive Off Canvas Menu*/
+    .nav-open {
+        -webkit-transform: translateX(-270px);
+        -moz-transform: translateX(-270px);
+        -ms-transform: translateX(-270px);
+        transform: translateX(-270px);}
+    .nav-main {
+        background: #4f93ce; /*Apply this BG color to html ^ too for chrome*/
+        z-index: 101;
+        display: block;
+        overflow-x: hidden;
+        position: fixed;
+        right: 0;
+        top: 0;
+        -webkit-transform: translateX(270px);
+        -moz-transform: translateX(270px);
+        -ms-transform: translateX(270px);
+        transform: translateX(270px);
+        width: 270px;
+        height: 100%;
+        padding-top: 10px;
+        margin: 0;
+    }
+    .nav > li {
+        display: block;
+    }
+    .nav > li > a {
+        color: #fff;
+        padding: 6px 15px;
+    }
+    .nav > li > a:hover,  .nav > li > a:active {
+        color: #337ab7;
+        background: transparent;
+    }
+    .dropdown-menu {
+      background: transparent;
+      border: none;
+      box-shadow: none;
+      margin-left: 1.250em;
+      padding-top: 0;
+      width: 100%;
+      position: relative;
+    }
+    .dropdown-menu > li > a {
+        color: #fff;
+        padding: 0.375em 0.938em;
+    }
+    .dropdown-menu > li > a:hover, .dropdown-menu > li > a:active {
+        color: #337ab7;
+        background: transparent;
+    }
+    .nav .open > a, .nav .open > a:hover, .nav .open > a:focus {
+        background-color: #eeeeee;
+        border-color: transparent;
+        color: #337ab7;
+    }
+    .dropdown > a:before {
+        content: "\f067";
+        font-family: "FontAwesome";
+        padding-right: 0.625em;
+    }
+    /*End of Responsive Off Canvas Menu*/
+}
+
+@media only screen and (max-width: 767px) {
+    html { font-size: 16px; } /* http://j.eremy.net/confused-about-rem-and-em/ */
+    body.sticky-site-footer { margin-bottom: 123px; } /* match .site-footer height */
+    body.sticky-site-footer .site-footer { height: 123px; } /* match body.sticky-site-footer margin-bottom */
+    h1 {
+        font-size: 2.000em;
+    }
+    .content .introduction {
+        font-size: 1.625em;
+    }
+    .logo {
+        width: 50%;
+        float: left;
+    }
+    .utility {
+        width: 50%;
+    }
+}
+
+@media only screen and (max-width: 480px) {
+    html { font-size: 16px; } /* http://j.eremy.net/confused-about-rem-and-em/ */
+    body.sticky-site-footer { margin-bottom: 123px; } /* match .site-footer height */
+    body.sticky-site-footer .site-footer { height: 123px; } /* match body.sticky-site-footer margin-bottom */
+    .content .introduction {
+        font-size: 1.500em;
+    }
+    h2 {
+        font-size: 1.125em;
+    }
+}
